@@ -1,0 +1,37 @@
+name: drink_shop
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^0.13.3
+  shared_preferences: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.9.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/coffee.png
+    - assets/tea.png
+    - assets/juice.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#FFDF00"
+  adaptive_icon_foreground: "assets/icons/app_icon_foreground.png"
